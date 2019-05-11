@@ -4,3 +4,12 @@ background-color: #DCDCDC;
 width: 200px;
 height:100px;
 }
+
+@media(min-width:0px) and (max-width: 320px){
+frame#o {
+width: 0px;
+
+}
+}
+
+

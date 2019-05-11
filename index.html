@@ -1,19 +1,28 @@
 ﻿<html>
 <head>
+<style>
+@media(min-width:0px) and (max-width: 320px){
+frame#o {
+width: 0px;
 
+}
+
+
+</style>
 </head>
 
-<frameset cols="75%,*" bordercolor="black" noresize scrolling="auto" border="8px">
-<frameset cols="33%,*" bordercolor="black" noresize scrolling="auto" border="8px">
-<frame src="menu.html" name="top" bordercolor="black" noresize scrolling="auto" >
-<frameset rows="10%,*" frameborder="no" noresize scrolling="auto">
 
-<frame src="top.html" name="menu" bordercolor="black"  scrolling="no">
-<frameset rows="6%,*" frameborder="no" noresize scrolling="auto">
-<frame src="top2.html" name="2" bordercolor="black"  scrolling="auto">
-<frame src="content.html" name="content" bordercolor="black" noresize scrolling="auto">
+<frameset  cols="75%,*" bordercolor="black" noresize scrolling="auto" border="8px" allowfullscreen>
+<frameset cols="33%,*" bordercolor="black" noresize scrolling="auto" border="8px" allowfullscreen>
+<frame src="menu.html"  name="o" bordercolor="black" noresize scrolling="auto" allowfullscreen>
+<frameset rows="10%,*" frameborder="no" noresize scrolling="auto" allowfullscreen>
+
+<frame src="top.html" name="menu" bordercolor="black"  scrolling="no" allowfullscreen>
+<frameset rows="6%,*" frameborder="no" noresize scrolling="auto" allowfullscreen>
+<frame src="top2.html" name="2" bordercolor="black"  scrolling="auto" allowfullscreen>
+<frame src="content.html" name="content" bordercolor="black" noresize scrolling="auto" allowfullscreen> 
 
 </frameset></frameset></frameset>
-<frame src="1.html" name="content" bordercolor="black" noresize scrolling="auto">
+<frame src="1.html" name="o" bordercolor="black" noresize scrolling="auto" allowfullscreen>
 </frameset>
 </html>
